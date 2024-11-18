@@ -1,0 +1,35 @@
+{
+    "name": "Hansal/deposit",
+    "description": "",
+    "authors": [
+        {
+            "name": "Hansal Scripts",
+            "email": "support@cancoda.com"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "authorizenet/authorizenet": "^2.0",
+        "btcpayserver/btcpayserver-greenfield-php": "^2.3",
+        "coingate/coingate-php": "^4.1",
+        "mollie/laravel-mollie": "^3.0",
+        "razorpay/razorpay": "^2.9",
+        "stripe/stripe-php": "^13.13"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Hansal\\Deposit\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {}
+    }
+}
