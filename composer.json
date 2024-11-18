@@ -16,20 +16,9 @@
         "razorpay/razorpay": "^2.9",
         "stripe/stripe-php": "^13.13"
     },
-    "extra": {
-        "laravel": {
-            "providers": [],
-            "aliases": {
-
-            }
-        }
-    },
     "autoload": {
         "psr-4": {
             "Hansal\\Deposit\\": "src/"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {}
     }
 }
