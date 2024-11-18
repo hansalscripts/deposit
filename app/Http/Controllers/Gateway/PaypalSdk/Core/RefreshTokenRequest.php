@@ -1,8 +1,8 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\Core;
+namespace Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\Core;
 
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\HttpRequest;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\HttpRequest;
 
 class RefreshTokenRequest extends HttpRequest
 {

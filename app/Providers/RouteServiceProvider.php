@@ -36,7 +36,7 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapWebRoutes(): void
     {
         Route::middleware(['web', 'auth'])
-            ->namespace('Hansal\Deposit\App\Http\Controllers')
+            ->namespace('Hansal\Deposit\Http\Controllers')
             ->group(module_path($this->name, '/routes/web.php'));
     }
 
@@ -48,7 +48,7 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapApiRoutes(): void
     {
         Route::middleware('web')
-            ->namespace('Hansal\Deposit\App\Http\Controllers\Deposit')
+            ->namespace('Hansal\Deposit\Http\Controllers\Deposit')
             ->prefix('ipn')
             ->name('ipn.')->group(module_path($this->name, '/routes/api.php'));
     }

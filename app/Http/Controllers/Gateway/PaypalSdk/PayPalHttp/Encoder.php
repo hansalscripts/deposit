@@ -1,11 +1,11 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp;
+namespace Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp;
 
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer\Form;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer\Json;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer\Multipart;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer\Text;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer\Form;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer\Json;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer\Multipart;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer\Text;
 
 /**
  * Class Encoder

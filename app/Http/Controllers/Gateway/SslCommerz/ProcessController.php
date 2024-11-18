@@ -1,9 +1,9 @@
 <?php
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\SslCommerz;
+namespace Hansal\Deposit\Http\Controllers\Gateway\SslCommerz;
 
 use App\Constants\Status;
-use Hansal\Deposit\App\Models\Deposit;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaymentController;
+use Hansal\Deposit\Models\Deposit;
+use Hansal\Deposit\Http\Controllers\Gateway\PaymentController;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Lib\CurlRequest;

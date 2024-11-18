@@ -1,6 +1,6 @@
 <?php
 
-namespace Hansal\Deposit\App\Models;
+namespace Hansal\Deposit\Models;
 
 use App\Models\Image;
 use App\Traits\GlobalStatus;

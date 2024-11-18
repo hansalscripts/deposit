@@ -1,11 +1,11 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\TwoCheckout;
+namespace Hansal\Deposit\Http\Controllers\Gateway\TwoCheckout;
 
-use Hansal\Deposit\App\Models\Deposit;
+use Hansal\Deposit\Models\Deposit;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaymentController;
+use Hansal\Deposit\Http\Controllers\Gateway\PaymentController;
 
 class ProcessController extends Controller
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\StripeJs;
+namespace Hansal\Deposit\Http\Controllers\Gateway\StripeJs;
 
 use App\Constants\Status;
-use Hansal\Deposit\App\Models\Deposit;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaymentController;
+use Hansal\Deposit\Models\Deposit;
+use Hansal\Deposit\Http\Controllers\Gateway\PaymentController;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Session;

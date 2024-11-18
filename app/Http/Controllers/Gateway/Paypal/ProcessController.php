@@ -1,10 +1,10 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\Paypal;
+namespace Hansal\Deposit\Http\Controllers\Gateway\Paypal;
 
 use App\Constants\Status;
-use Hansal\Deposit\App\Models\Deposit;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaymentController;
+use Hansal\Deposit\Models\Deposit;
+use Hansal\Deposit\Http\Controllers\Gateway\PaymentController;
 use App\Http\Controllers\Controller;
 use App\Lib\CurlRequest;
 

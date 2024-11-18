@@ -1,9 +1,9 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\NMI;
+namespace Hansal\Deposit\Http\Controllers\Gateway\NMI;
 
-use Hansal\Deposit\App\Models\Deposit;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaymentController;
+use Hansal\Deposit\Models\Deposit;
+use Hansal\Deposit\Http\Controllers\Gateway\PaymentController;
 use App\Http\Controllers\Controller;
 use App\Lib\CurlRequest;
 use Illuminate\Support\Facades\Session;

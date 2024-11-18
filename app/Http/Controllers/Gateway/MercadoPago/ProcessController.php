@@ -1,12 +1,12 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\MercadoPago;
+namespace Hansal\Deposit\Http\Controllers\Gateway\MercadoPago;
 
 use App\Constants\Status;
-use Hansal\Deposit\App\Models\Deposit;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaymentController;
+use Hansal\Deposit\Models\Deposit;
+use Hansal\Deposit\Http\Controllers\Gateway\PaymentController;
 use App\Http\Controllers\Controller;
-use Hansal\Deposit\App\Models\Gateway;
+use Hansal\Deposit\Models\Gateway;
 use Illuminate\Http\Request;
 
 class ProcessController extends Controller

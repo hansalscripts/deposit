@@ -1,17 +1,17 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk;
+namespace Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk;
 
 use App\Constants\Status;
 use App\Http\Controllers\Controller;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaymentController;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\Core\PayPalHttpClient;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\Core\ProductionEnvironment;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\Core\SandboxEnvironment;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\Orders\OrdersCaptureRequest;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\Orders\OrdersCreateRequest;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\HttpException;
-use Hansal\Deposit\App\Models\Deposit;
+use Hansal\Deposit\Http\Controllers\Gateway\PaymentController;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\Core\PayPalHttpClient;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\Core\ProductionEnvironment;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\Core\SandboxEnvironment;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\Orders\OrdersCaptureRequest;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\Orders\OrdersCreateRequest;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\HttpException;
+use Hansal\Deposit\Models\Deposit;
 
 class ProcessController extends Controller
 {

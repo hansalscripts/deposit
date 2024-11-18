@@ -1,9 +1,9 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Admin;
+namespace Hansal\Deposit\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use Hansal\Deposit\App\Models\Category;
+use Hansal\Deposit\Models\Category;
 use Illuminate\Http\Request;
 use App\Rules\FileTypeValidate;
 

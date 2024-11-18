@@ -1,11 +1,11 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\StripeV3;
+namespace Hansal\Deposit\Http\Controllers\Gateway\StripeV3;
 
 use App\Constants\Status;
-use Hansal\Deposit\App\Models\Deposit;
-use Hansal\Deposit\App\Models\GatewayCurrency;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaymentController;
+use Hansal\Deposit\Models\Deposit;
+use Hansal\Deposit\Models\GatewayCurrency;
+use Hansal\Deposit\Http\Controllers\Gateway\PaymentController;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 

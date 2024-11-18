@@ -1,8 +1,8 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\Core;
+namespace Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\Core;
 
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Environment;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Environment;
 
 abstract class PayPalEnvironment implements Environment
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp;
+namespace Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp;
 
 /**
  * Class HttpRequest

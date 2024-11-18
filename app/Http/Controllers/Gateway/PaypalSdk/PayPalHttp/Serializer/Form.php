@@ -1,9 +1,9 @@
 <?php
 
-namespace  Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer;
+namespace  Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer;
 
-use  Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\HttpRequest;
-use  Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer;
+use  Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\HttpRequest;
+use  Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer;
 
 class Form implements Serializer
 {

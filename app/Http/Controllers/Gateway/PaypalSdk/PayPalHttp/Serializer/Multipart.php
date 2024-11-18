@@ -1,12 +1,12 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer;
+namespace Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer;
 
 use finfo;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\HttpRequest;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Encoder;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer\FormPart;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\HttpRequest;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Encoder;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Serializer\FormPart;
 
 /**
  * Class Multipart

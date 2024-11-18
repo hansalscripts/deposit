@@ -1,11 +1,11 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\BTCPay;
+namespace Hansal\Deposit\Http\Controllers\Gateway\BTCPay;
 
 use App\Http\Controllers\Controller;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaymentController;
+use Hansal\Deposit\Http\Controllers\Gateway\PaymentController;
 use App\Models\AdminNotification;
-use Hansal\Deposit\App\Models\Deposit;
+use Hansal\Deposit\Models\Deposit;
 use BTCPayServer\Client\Invoice;
 use BTCPayServer\Client\Webhook;
 use BTCPayServer\Util\PreciseNumber;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Admin;
+namespace Hansal\Deposit\Http\Controllers\Admin;
 
 use App\Constants\Status;
-use Hansal\Deposit\App\Models\Gateway;
-use Hansal\Deposit\App\Models\GatewayCurrency;
+use Hansal\Deposit\Models\Gateway;
+use Hansal\Deposit\Models\GatewayCurrency;
 use App\Http\Controllers\Controller;
 use App\Lib\FormProcessor;
 use App\Rules\FileTypeValidate;

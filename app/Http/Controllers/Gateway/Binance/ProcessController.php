@@ -1,12 +1,12 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\Binance;
+namespace Hansal\Deposit\Http\Controllers\Gateway\Binance;
 
 use App\Http\Controllers\Controller;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaymentController;
+use Hansal\Deposit\Http\Controllers\Gateway\PaymentController;
 use App\Lib\CurlRequest;
-use Hansal\Deposit\App\Models\Deposit;
-use Hansal\Deposit\App\Models\Gateway;
+use Hansal\Deposit\Models\Deposit;
+use Hansal\Deposit\Models\Gateway;
 use Illuminate\Support\Str;
 
 class ProcessController extends Controller

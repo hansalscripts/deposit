@@ -1,6 +1,6 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\Paytm;
+namespace Hansal\Deposit\Http\Controllers\Gateway\Paytm;
 
 class PayTM{
     /*

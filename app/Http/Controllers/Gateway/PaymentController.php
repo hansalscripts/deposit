@@ -1,14 +1,14 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway;
+namespace Hansal\Deposit\Http\Controllers\Gateway;
 
 use App\Constants\Status;
 use App\Http\Controllers\Controller;
 use App\Lib\FormProcessor;
 use App\Models\AdminNotification;
-use Hansal\Deposit\App\Models\Deposit;
+use Hansal\Deposit\Models\Deposit;
 use App\Models\Donation;
-use Hansal\Deposit\App\Models\GatewayCurrency;
+use Hansal\Deposit\Models\GatewayCurrency;
 use App\Models\Plan;
 use App\Models\PlanPurchase;
 use App\Models\Transaction;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hansal\Deposit\App\Models;
+namespace Hansal\Deposit\Models;
 
 use App\Constants\Status;
 use App\Models\Form;

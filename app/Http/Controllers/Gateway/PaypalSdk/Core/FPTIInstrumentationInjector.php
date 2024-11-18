@@ -1,8 +1,8 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\Core;
+namespace Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\Core;
 
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Injector;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Injector;
 
 class FPTIInstrumentationInjector implements Injector
 {

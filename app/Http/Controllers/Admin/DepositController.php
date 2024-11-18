@@ -1,12 +1,12 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Admin;
+namespace Hansal\Deposit\Http\Controllers\Admin;
 
 use App\Constants\Status;
-use Hansal\Deposit\App\Models\Deposit;
-use Hansal\Deposit\App\Models\Gateway;
+use Hansal\Deposit\Models\Deposit;
+use Hansal\Deposit\Models\Gateway;
 use App\Http\Controllers\Controller;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaymentController;
+use Hansal\Deposit\Http\Controllers\Gateway\PaymentController;
 use Illuminate\Http\Request;
 
 class DepositController extends Controller

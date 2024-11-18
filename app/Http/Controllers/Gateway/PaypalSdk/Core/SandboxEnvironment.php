@@ -1,6 +1,6 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\Core;
+namespace Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\Core;
 
 class SandboxEnvironment extends PayPalEnvironment
 {

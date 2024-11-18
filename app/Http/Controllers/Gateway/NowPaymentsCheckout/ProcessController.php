@@ -1,11 +1,11 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\NowPaymentsCheckout;
+namespace Hansal\Deposit\Http\Controllers\Gateway\NowPaymentsCheckout;
 
 use App\Http\Controllers\Controller;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaymentController;
+use Hansal\Deposit\Http\Controllers\Gateway\PaymentController;
 use App\Lib\CurlRequest;
-use Hansal\Deposit\App\Models\Deposit;
+use Hansal\Deposit\Models\Deposit;
 
 class ProcessController extends Controller {
     public static function process($deposit) {

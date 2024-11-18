@@ -1,10 +1,10 @@
 <?php
 
-namespace Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\Core;
+namespace Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\Core;
 
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\HttpRequest;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Injector;
-use Hansal\Deposit\App\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\HttpClient;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\HttpRequest;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\Injector;
+use Hansal\Deposit\Http\Controllers\Gateway\PaypalSdk\PayPalHttp\HttpClient;
 
 class AuthorizationInjector implements Injector
 {
